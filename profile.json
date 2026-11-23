@@ -1,7 +1,7 @@
 {
   "version": 1,
   "login": "rootscripts0",
-  "seed": "#B36CFF",
+  "seed": "#5C7CFF",
   "seedFromAvatar": false,
   "scheme": "monochrome",
   "motion": true,
@@ -10,27 +10,27 @@
     "hero",
     "socials",
     "about",
-    "wave",
     "stack",
     "projects",
     "stats",
     "streak",
+    "wave",
     "buttons"
   ],
   "hidden": [
-    "buttons",
-    "projects"
+    "socials",
+    "buttons"
   ],
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Shadow Boss",
-    "subtitle": "I built Sway, the best open-source music player, i also often do small projects for my life.",
+    "subtitle": "I built Sway, the best music player, i also often do small projects for my life.",
     "typing": true,
-    "avatarShape": "clover",
+    "avatarShape": "cookie12",
     "chips": [
       {
         "icon": "code",
-        "label": "CSS, HTML, JS, node js, Shell, Phyton"
+        "label": "CSS, HTML, JS, node.js, Shell, Python"
       }
     ]
   },
@@ -58,24 +58,24 @@
         "title": "Main",
         "items": [
           {
-            "icon": "brand:typescript",
-            "label": "TypeScript"
+            "icon": "brand:nodedotjs",
+            "label": "JS"
           },
           {
             "icon": "brand:react",
             "label": "React"
           },
           {
+            "icon": "brand:electron",
+            "label": "electron"
+          },
+          {
+            "icon": "brand:svelte",
+            "label": "Fronted"
+          },
+          {
             "icon": "brand:python",
             "label": "Python"
-          },
-          {
-            "icon": "brand:rust",
-            "label": "Rust"
-          },
-          {
-            "icon": "music_note",
-            "label": "Sway"
           }
         ]
       }
@@ -83,12 +83,7 @@
   },
   "projects": {
     "source": "pinned",
-    "repos": [
-      "pixel-garden",
-      "tiny-weather",
-      "echo-bot",
-      "dotfiles"
-    ],
+    "repos": [],
     "overrides": {},
     "empty": "No description yet.",
     "fork": "Fork"
@@ -113,8 +108,16 @@
   "socials": {
     "items": [
       {
+        "icon": "brand:telegram",
+        "url": "https://t.me/"
+      },
+      {
         "icon": "brand:discord",
         "url": "https://discord.com/"
+      },
+      {
+        "icon": "brand:x",
+        "url": "https://x.com/"
       }
     ],
     "variant": "chip",
